@@ -13,7 +13,7 @@ function Chat(){
     },
     {
       id: "1",
-      message: "What is your name🤨?",
+      message: "What is your name🤨❓",
       trigger: "2",
     },
     {
