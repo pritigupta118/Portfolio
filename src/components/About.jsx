@@ -9,7 +9,7 @@ const About = () => {
   <FaUser size={25}/><h1 className='text-4xl font-bold border-b-4 border-orange-600'>About</h1>
   </div>
   <div className='max-w-[1000px] grid sm:grid-cols-2 gap-8 px-4'>
-<div className='text-4xl font-bold px-4'>
+<div className='text-2xl sm:text-4xl font-bold px-4'>
   <p className='text-yellow-500'>
     Hi, I'm Priti, nice to meet you, Please take a look
   </p>

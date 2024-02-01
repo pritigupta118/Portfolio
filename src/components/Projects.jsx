@@ -7,7 +7,7 @@ const Projects = () => {
     const project = data;
 
   return (
-    <div  className='w-full h-screen text-gray-300 '>
+    <div  className='w-full h-screen text-gray-300'>
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
     <div className='pb-8 flex flex-col justify-center items-center'>
     <div className='flex flex-row justify-between items-center gap-2'>

@@ -2,7 +2,10 @@ import React from 'react'
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
+
+
 const Home = () => {
+
   return (
     <div className='h-screen flex flex-col justify-center items-center'>
       <div className='w-7/12 flex flex-col gap-2'>
@@ -19,9 +22,6 @@ const Home = () => {
         </div>
 
       </div>
-
-
-
 
     </div>
 

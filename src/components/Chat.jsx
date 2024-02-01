@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot"
-
+import { FaRobot } from "react-icons/fa";
 
 function Chat(){
 
-
+const [modalOpen, setModalOpen] = useState(true)
+const toggleModalClick = () => {
+  setModalOpen(!modalOpen);
+}
   const steps = [
     {
       id: "0",
@@ -92,8 +95,18 @@ function Chat(){
   ];
 
 return(
-  <div className="w-full h-screen flex justify-center items-center bg-purple-200">
- <ChatBot steps={steps}/>
+  <div className="w-full h-screen  flex justify-center items-center bg-purple-200">
+
+
+<div className="flex flex-col gap-4 justify-center items-center">
+<div className="bg-purple-600 absolute rounded-full py-2 px-4 text-center cursor-pointer top-[7%] left-[35%] sm:left-[40%]" onClick={toggleModalClick}><p className="text-2xl text-white"><FaRobot size={25}/></p></div>
+{modalOpen && <div>
+<ChatBot steps={steps}/>
+</div>}
+</div>  
+
+
+ 
   </div>
 )
 }
