@@ -34,12 +34,12 @@ const toggleButttonClick = () =>{
      </div>
 
 
-<ul  className={!nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#131313] flex flex-col justify-center items-center cursor-pointer'}>
-        <li className='py-6 text-4xl'><Link to={"/"}>Home</Link></li>
-        <li className='py-6 text-4xl'><NavLink to={"/about"}>About</NavLink></li>
-        <li className='py-6 text-4xl'><NavLink to={"/skills"}>Skills</NavLink></li>
-        <li className='py-6 text-4xl'><NavLink to={"/projects"}>Projects</NavLink></li>
-        <li className='py-6 text-4xl'><NavLink to={"/chat"}>Chat</NavLink></li>
+<ul  className={!nav ? 'hidden' : 'absolute top-0 left-[50%] w-1/2 h-screen bg-black flex flex-col justify-center items-center cursor-pointer'}>
+        <li className='py-6 text-2xl'><Link to={"/"}>Home</Link></li>
+        <li className='py-6 text-2xl'><NavLink to={"/about"}>About</NavLink></li>
+        <li className='py-6 text-2xl'><NavLink to={"/skills"}>Skills</NavLink></li>
+        <li className='py-6 text-2xl'><NavLink to={"/projects"}>Projects</NavLink></li>
+        <li className='py-6 text-2xl'><NavLink to={"/chat"}>Chat</NavLink></li>
       </ul>
     
     </div>

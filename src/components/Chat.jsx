@@ -4,7 +4,7 @@ import { FaRobot } from "react-icons/fa";
 
 function Chat(){
 
-const [modalOpen, setModalOpen] = useState(true)
+const [modalOpen, setModalOpen] = useState(false)
 const toggleModalClick = () => {
   setModalOpen(!modalOpen);
 }
@@ -99,7 +99,7 @@ return(
 
 
 <div className="flex flex-col gap-4 justify-center items-center">
-<div className="bg-purple-600 absolute rounded-full py-2 px-4 text-center cursor-pointer top-[7%] left-[35%] sm:left-[40%]" onClick={toggleModalClick}><p className="text-2xl text-white"><FaRobot size={25}/></p></div>
+<div className="bg-purple-600 absolute rounded-full py-2 px-4 text-center cursor-pointer top-[7%] left-[32%] sm:left-[40%]" onClick={toggleModalClick}><p className="text-2xl text-white"><FaRobot size={25}/></p></div>
 {modalOpen && <div>
 <ChatBot steps={steps}/>
 </div>}
