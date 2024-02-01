@@ -21,23 +21,23 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
                   <FaCss3 className='bg-sky-300' size={100}/>
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>CSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
                   <FaJs className='bg-yellow-500' size={100}/>
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>JavaScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
                   <FaGithub size={100}/>
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>Github</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
                   <FaReact className='bg-[#006069]' size={100}/>
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>React</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
                   <FaNodeJs className='bg-green-600' size={100}/>
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>NodeJs</p>
               </div>
 </div>
 
