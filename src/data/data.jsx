@@ -12,6 +12,6 @@ export const data=[
     name: "Portfolio",
     technologies: "React Tailwind Css",
     github: "https://github.com/pritigupta118/Portfolio",
-    live: ""
+    live: "https://priti-tech.vercel.app/"
   },
 ]
